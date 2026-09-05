@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Velvet Static",
+      "hasCanvas": false,
+      "bodyTextLen": 1224,
+      "bodyTextHash": "0acae38d523ecff4a6908e67e0a4b9e4c3cae51ab8a3bf56cc78c671f15ab991",
+      "bodyTextPrefix": "Skip to content VELVET STATIC BAND MUSIC BOOKING CONNECT Book a ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Velvet Static",
+      "hasCanvas": false,
+      "bodyTextLen": 1185,
+      "bodyTextHash": "c915d759e75ff7fcbdcf5adefbf3c197721088bc1e2254ce38d8cff73bb520dc",
+      "bodyTextPrefix": "Skip to content VELVET STATIC LOS ANGELES · EST. 2019 VELVET STA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

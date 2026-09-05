@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+/.pnp
+.pnp.js
+
+# Producción / Distribución
+dist/
+build/
+.next/
+out/
+
+# Logs de error y rendimiento
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# Variables de entorno y secretos (¡NUNCA los subas!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de editores (Opcional, descomenta si lo deseas)
+# .vscode/
+# .idea/

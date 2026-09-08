@@ -3,7 +3,7 @@ export const band = {
   city: "Mexico City",
   formed: 1992,
   current: 2026,
-  tagline: "Hacemos Pop.",
+  tagline: "Hacemos Pop. ",
   bio: "Icónico grupo mexicano de música pop — Un grupo que transforma la energía de una generación en melodías inolvidables, donde cada canción sigue brillando como un recuerdo compartido.",
   emails: {
     booking: "ventas@kabahoficial.com",

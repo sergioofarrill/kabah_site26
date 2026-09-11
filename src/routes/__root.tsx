@@ -1,14 +1,9 @@
-import {
-  createRootRoute,
-  HeadContent,
-  Outlet,
-  Scripts,
-} from "@tanstack/react-router";
+import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Velvet Static";
+const APP_NAME = "Kabah Static";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -18,8 +13,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content:
-          "Velvet Static — Los Angeles pop band. Glass Heart out now. Worldwide booking.",
+        content: "Kabah — Mexican pop band.  Worldwide booking.",
       },
       { name: "theme-color", content: "#0a0a0b" },
     ],

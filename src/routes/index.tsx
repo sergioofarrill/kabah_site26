@@ -20,7 +20,7 @@ function Home() {
         <FullBleed
           id="hero"
           image="/images/hero.jpg"
-          alt="Velvet Static standing together on a rooftop at blue hour"
+          alt="Kabah studio shoot"
           overlay="bottom"
           objectPosition="object-bottom"
           priority
@@ -50,7 +50,7 @@ function Home() {
         <FullBleed
           id="band"
           image="/images/about.jpg"
-          alt="Velvet Static in a dim industrial loft, photographed as a four-piece"
+          alt="Kabah by Wesootmuch 2018"
           overlay="left"
           objectPosition="object-center"
         >
@@ -82,7 +82,7 @@ function Home() {
         <FullBleed
           id="music"
           image="/images/live.jpg"
-          alt="Velvet Static performing live under cool white stage lights"
+          alt="Kabah performing live at 90s Pop Tour"
           overlay="bottom"
           objectPosition="object-center"
         >
@@ -128,7 +128,7 @@ function Home() {
         <FullBleed
           id="booking"
           image="/images/studio.jpg"
-          alt="Velvet Static seated in a recording studio"
+          alt="Kabah studio Photo"
           overlay="split"
           objectPosition="object-center"
         >
@@ -176,7 +176,7 @@ function Home() {
         <FullBleed
           id="connect"
           image="/images/street.jpg"
-          alt="Velvet Static walking a wet city street at night"
+          alt="Kabah posing on a wet city street at night"
           overlay="bottom"
           objectPosition="object-center"
         >

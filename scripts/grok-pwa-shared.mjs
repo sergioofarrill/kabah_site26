@@ -448,7 +448,7 @@ export function injectGrokPwaHead(html, ctx = {}) {
   );
 
   if (!next.includes("/grok-app-builder/extensions.js")) {
-    missing.push(...grokExtensionsHeadTags(projectId));
+    // Grok "Created with Grok" badge script removed for kabahoficial.com (Nov 2026).
   } else if (projectId && !next.includes('name="grok-project-id"')) {
     missing.push(`<meta name="grok-project-id" content="${escapeHtml(projectId)}">`);
   }

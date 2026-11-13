@@ -60,7 +60,7 @@ function Home() {
               <h2 className="mt-3 font-display text-section font-medium uppercase leading-tight tracking-display">
                 Un sueño
                 <br />
-                que continua.
+                que continúa.
               </h2>
               <p className="mt-5 max-w-prose text-sm leading-normal text-muted sm:text-base">
                 {band.bio}
@@ -90,7 +90,7 @@ function Home() {
             <div className="flex max-w-3xl flex-col gap-8 sm:flex-row sm:items-end">
               <img
                 src="/images/album.jpg"
-                alt="Glass Heart album artwork"
+                alt={`${band.album.title} album artwork`}
                 width={288}
                 height={288}
                 className="size-32 rounded-md object-cover sm:size-40"
@@ -135,7 +135,7 @@ function Home() {
           <div className="flex flex-1 flex-col justify-start px-5 pb-16 pt-24 sm:px-8 lg:px-12 lg:pb-20">
             <p className="text-xs font-medium uppercase tracking-wider text-muted">Booking</p>
             <h2 className="mt-3 max-w-xl font-display text-section font-medium uppercase leading-tight tracking-display">
-              Quieres bookear a Kabah?
+              ¿Quieres bookear a Kabah?
             </h2>
             <div className="mt-8 grid gap-8 lg:grid-cols-2 lg:items-start">
               <div className="flex flex-col gap-6">
@@ -154,12 +154,14 @@ function Home() {
                     value={band.emails.booking}
                     href={`mailto:${band.emails.booking}`}
                   />
-                  <Info
-                    icon={<Phone className="size-4" />}
-                    label={band.agent.name}
-                    value={band.agent.phone}
-                    href={`tel:${band.agent.phone.replace(/[^\d+]/g, "")}`}
-                  />
+                  {band.agent.phone ? (
+                    <Info
+                      icon={<Phone className="size-4" />}
+                      label="Phone"
+                      value={band.agent.phone}
+                      href={`tel:${band.agent.phone.replace(/[^\d+]/g, "")}`}
+                    />
+                  ) : null}
                   <Info
                     icon={<Mail className="size-4" />}
                     label="Press"

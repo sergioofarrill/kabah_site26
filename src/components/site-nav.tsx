@@ -45,7 +45,7 @@ export function SiteNav() {
           >
             {band.name}
           </a>
-          <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
+          <nav className="hidden items-center gap-8 md:flex" aria-label="Principal">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -66,7 +66,7 @@ export function SiteNav() {
             className="md:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? "Cerrar menú" : "Abrir menú"}
             onClick={() => setOpen((v) => !v)}
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
@@ -78,7 +78,7 @@ export function SiteNav() {
         id="mobile-menu"
         className={cn("fixed inset-0 z-30 bg-bg pt-16 md:hidden", open ? "block" : "hidden")}
       >
-        <nav className="flex h-full flex-col justify-between px-6 pb-10 pt-8" aria-label="Mobile">
+        <nav className="flex h-full flex-col justify-between px-6 pb-10 pt-8" aria-label="Menú móvil">
           <ul className="flex flex-col gap-1">
             {navItems.map((item) => (
               <li key={item.href}>

@@ -13,7 +13,8 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content: "Kabah — Mexican pop band.  Worldwide booking.",
+        content:
+          "Kabah — grupo icónico del pop mexicano desde 1992. Música, integrantes, redes sociales y contrataciones.",
       },
       { name: "theme-color", content: "#0a0a0b" },
     ],
@@ -35,7 +36,7 @@ export const Route = createRootRoute({
     ],
   }),
   component: () => (
-    <html lang="en" className="antialiased" suppressHydrationWarning>
+    <html lang="es" className="antialiased" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>

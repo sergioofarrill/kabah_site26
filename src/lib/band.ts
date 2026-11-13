@@ -13,7 +13,8 @@ export const band = {
   agent: {
     name: "Kabah",
     company: "Kabah",
-    phone: "**********",
+    // Agrega el teléfono de contrataciones aquí; si está vacío, no se muestra en el sitio.
+    phone: "" as string,
     territory: "Worldwide",
   },
   members: [
@@ -31,12 +32,12 @@ export const band = {
       "La Calle De Las Sirenas",
       "Amor Por Amor",
       "Vivir",
-      "Siempre Hay Una Solucion",
+      "Siempre Hay Una Solución",
       "Vive",
       "Sin Ti Yo No",
       "Juntos",
       "Fuego De Gloria",
-      "Estare",
+      "Estaré",
       "Amor, Paz Y Entendimiento",
       "Tu Risa Genial",
       "Amor De Estudiante",
